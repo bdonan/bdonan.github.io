@@ -1,3 +1,19 @@
+
+
+/*
+*
+* Copyright 2016, Benjamin Donan
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Nav Bar
+*/
+
+
+/* Nav Bar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .main_nav{
   padding: 5%;
 }
@@ -9,7 +25,66 @@
 }
 .main_nav li {
     display: inline;
-    padding: 10px;
+    padding: 0px;
 }
+
+.button{
+  border-radius: 0px;
+}
+
 /*-------------Images---------*/
 img{max-width: 100%}
+
+/* footer
+-------------------------------*/
+.footer{
+  background-color: #efefef;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+
+  padding: 45px 50px;
+  margin-top: 80px;
+}
+
+.footer .footer-left p{
+  font-size: 14px;
+  margin: 0;
+}
+
+
+.footer .footer-right{
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+.footer .footer-right a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33C3F0;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-left: 3px;
+}
+@media (max-width: 600px) {
+
+	.footer .footer-left,
+	.footer .footer-right{
+		text-align: center;
+	}
+
+	.footer .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
